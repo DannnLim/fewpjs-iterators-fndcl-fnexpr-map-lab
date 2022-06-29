@@ -11,6 +11,10 @@ const tutorials = [
   'what is JSONP?'
 ];
 
+
+//----------Doesn't this one work too?------------------------
+
+
 // function titleCased(tutorials) {
 //   return tutorials.map(elements => {
 //     return elements.split(" ").map(word => {
@@ -20,6 +24,8 @@ const tutorials = [
 // }
 
 // console.log(titleCased(tutorials))
+
+//---------------------------------------------------------------
 
 const titleCased = () => {
   return tutorials.map(capitalize)
